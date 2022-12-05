@@ -1,50 +1,70 @@
-# Space
+# Getting Started with Create React App
 
-**10 points**
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Requirements
+## Available Scripts
 
-Use your creativity to build a page about space!
+In the project directory, you can run:
 
-* Could an asteroid hit the Earth this month?
-* When's the next solar flare?
-* When is the next SpaceX launch?
-* What does the Mars landscape look like?
-* What city is directly under the International Space Station this very minute?
-* What are the names of all of the people in space right?
-* What's a cool astronomy photo that could be used as (say) the background of the entire page?
+### `npm start`
 
-You don't have to display the answers to these exact questions.  I'm just
-trying to inspire your curiosity!
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Try to build a simple "mission control" dashboard for a few interesting facts about space.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Here are some APIs you can use to help provide data for your page:
+### `npm test`
 
-1. https://api.nasa.gov
-   - Get your own API key (free, takes about 10 seconds)
-   - Browse the available APIs
-   - Beware rate limitations
-   - I especially recommend APOD, Asteroid NeoWs, and DONKI services
-2. http://open-notify.org
-3. https://github.com/r-spacex/SpaceX-API
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-and there's even more in the internet.
+### `npm run build`
 
-Your page should be implemented in `index.html` but feel free to add other CSS files, JS files, or even turn it into a React application if you want.  However, plain vanilla HTML/CSS/JS is all that's required.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-**IMPORTANT** If you use an API that provides data for a specific date range, always use the date range `2022-12-01` thru `2022-12-08`, so that we're both looking at the same version of your page.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## Grading Rubric
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Much of the grading of this assignment is subjective, which is a bit
-different than our other assignments. 
+### `npm run eject`
 
-* Up to 2 points for each space-specific item on your page (up to 8 pts total) based on a nice display of space information or graphics
-* Up to 2 points for overall design aesthetic/creativity
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-You're encouraged to come up with a colorful, creative approach... or a scientific, Star Trek-style display... or anything else you prefer, but it should be something more than just plain headings and paragraphs.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Happy coding!
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
