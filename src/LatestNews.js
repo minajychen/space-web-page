@@ -21,7 +21,7 @@ function LatestNews() {
     }, [])
     return (
       <div className="Block">
-        <h2>Latest History Events</h2>
+        <h2 className="title">Latest History Events</h2>
         <div className="scrollable">
             {latestNews.map((latestItem)=> <NewsTile newsItem={latestItem}/>)}
         </div>

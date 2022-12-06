@@ -10,7 +10,8 @@ function Rocketinfo() {
     }, [])
     return (
       <div className="Block">
-        <h2>Rockets</h2>
+        <h2 className="title">Rockets</h2>
+        <p className='glitter-bg'>Click on the links to take you to the relevant Wikipedia page</p>
         <div className="scrollable d-flex">
             {rocketInfo.filter((items)=> items.flickr_images.length>0).map((item)=> <RocketTile rocketItem={item}/>)}
         </div>

@@ -6,15 +6,22 @@
 }
 
 .launchPhoto{
-  height:500px;
+  height:400px;
   display:block;
 }
 
 .title{
   color: #FFC0CB;
   text-align: center;
+  background-image: url('https://media.tenor.com/XMsn2AXpuGkAAAAi/glitter-sparkle.gif');
+}
+
+.glitter-bg{
+  text-align:center;
+  background-image: url('https://media.tenor.com/XMsn2AXpuGkAAAAi/glitter-sparkle.gif');
 }
 
 .subtitle{
   text-align: center;
+  background-image: url('https://media.tenor.com/XMsn2AXpuGkAAAAi/glitter-sparkle.gif');
 }

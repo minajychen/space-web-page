@@ -11,7 +11,7 @@ function Starlink() {
     }, [])
     return (
       <div className="Block">
-        <h2>Starlinks</h2>
+        <h2 className="title">Starlinks</h2>
         <div className="scrollable">
         <Table>
             <thead>
@@ -20,7 +20,7 @@ function Starlink() {
                 </tr>
             </thead>
             <tbody >
-                {starlinks.map((starlinkItem)=> <StarlinkRow starlink={starlinkItem}/>)}
+                {starlinks.filter((item)=> item.height_km).map((starlinkItem)=> <StarlinkRow starlink={starlinkItem}/>)}
             </tbody>
         </Table>
         </div>
